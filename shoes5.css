@@ -301,6 +301,9 @@ li{
     width: 60%;
     padding-left: 30px;
 }
+.review_comment_col2 p{
+    width: 50%;
+}
 .percent{
     padding-left: 10px;
    
@@ -702,13 +705,28 @@ button{
 
  /* ----------header----------- */
 .head-col1{
-    flex: .4;
+    flex: .6;
 }    
 .head-col1-2 p{
     display: none;
 }
 .head-col3{
-    flex: .4;
+    flex: .6;
+}
+.head-col3 i:nth-child(2){
+    display: none;
+
+}
+.head-col3 i:nth-child(1){
+    display: none;
+
+}
+.main_container{
+        font-size: 10px;
+        transform: translate(3rem,-3.5rem);
+}
+main{
+    height: 2300px;
 }
    .section2{
        display: flex;
@@ -727,6 +745,7 @@ button{
     display: flex;
     flex-direction: column;
 }
+
 .review_comment_col2 {
     margin-bottom: 20px;
 }
@@ -746,6 +765,9 @@ button{
     width: 100%;
     align-items: center;
 }
+.row2{
+    display: none;
+}
 
 .item,.similar{
     width: 80%;
@@ -757,7 +779,7 @@ button{
 /* <!-- -----------newsletter---------- --> */
 
 .newsletter{
-    padding: 15rem 3rem 8rem;
+    padding: 10rem 3rem 5rem;
 }
 .newsletter h1{
    font-size: 15px;
